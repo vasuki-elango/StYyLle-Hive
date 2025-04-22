@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: Montserrat,sans-serif;
+    overflow-x: hidden;
+}
+.container{
+    margin: auto;
+}
+.productcard{
+    width: 400px;
+    height: 600px;
+}
+a hr{
+    display: none;
+}
+a.active hr{
+    display: block;
+}
+section{
+    top: 4%;
+    position: relative;
+}
+.logo{
+    width: 5rem;
+}
