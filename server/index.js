@@ -21,6 +21,10 @@ app.use(express.json())
 
 getDatabse()
 
+app.get("/", (req, res) => {
+    res.send("Hello from StYyLle Hive 💅");
+});
+
 app.use('/uploads', express.static('uploads'));
 
 // user routes
